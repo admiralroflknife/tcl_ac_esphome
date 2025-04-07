@@ -6,7 +6,9 @@ implements:
 3. kinda makes the climate button for swing work in HA cards
 
 
-not great, but way better if you use farenheit
+not great, but way better if you use farenheit (hence why i just added my modifacations to a seperate file
+
+I can confirm it works (as does the previous fork) with the Rovsun and Zokorp Mini split models. 9k and 18k btu.
 
 
 
