@@ -1,4 +1,22 @@
-# Integration of TCL-based air conditioners for Home Assistant
+this fork has some rough code but adds a few fixes.
+
+implements:
+1. Half degree C steping that synced with degree's farenheit to avoid rounding and sync issues
+2. mutes beeper programically automatically
+3. kinda makes the climate button for swing work in HA cards
+
+
+not great, but way better if you use farenheit
+
+
+
+
+
+integration of TCL-based air conditioners for Home Assistant
+
+
+
+
 
 ### Implemented:
 - Split system modes (auto, cool, dry, fan only, heat)
