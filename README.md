@@ -1,5 +1,20 @@
 # Integration of TCL-based air conditioners for Home Assistant
+I can confirm this code works with another model as well the Rovsun/Zokorp Mini split's. Both 9k and 18k btu models are working fully.
 
+
+I've adjusted the code here for farenheit compatibility (this may break celcius use a bit as I've directly mapped farenheit to celcius values to prevent rounding issue weirdness).
+i've added in support as well for half degree steps on the mini split in celcius which the oriignal code lacked.
+the Swing mode button in home assistant thermostat card now maps properly
+It also mutes the beeper so any change in setting programically prevents a beep.
+Added some additonal Logging statements
+
+
+Thank you to the orginal for the code, really helped me get my mini splits going
+
+
+
+
+ORIGINAL READ-ME
 ### Implemented:
 - Split system modes (auto, cool, dry, fan only, heat)
 - Fan modes (mute, min, min-mid, mid, mid-high, high, turbo)
